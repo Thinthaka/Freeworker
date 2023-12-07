@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&family=Ubuntu:wght@400;500&display=swap');.column {
+    float: left;
+    width: 50%;
+}
+
+body{
+
+    background-color: rgb(255, 255, 255);
+}
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+div.polaroid {
+
+        width: 590px;
+       height: 660px;
+       background-color:   #0a7ffb;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px;
+        margin-left: 50px;
+        margin-top: 30px;
+        color:rgb(0, 0, 0);
+    }
+div.polaroidRightColumn {
+        border-radius: 8px;
+        width: 750px;
+       height: 660px;
+       background-color: #0a7ffb;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color:rgb(255, 255, 255);
+
+        margin-top: 30px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+        /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
+
+    }
+div.container {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* padding: 10px 20px; */
+}
+
+h1{
+    /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 40px;
+	padding: 15px 15px 15px 10%;
+    color: rgb(168, 239, 248);
+    text-align: center;
+    background-color:  #0b6cd4;
+}
+
+img:hover {
+    transition: 300ms;
+
+    /* margin-top: 50px; */
+    opacity: 0.85;
+    
+  }
+
+h1:hover{
+    opacity: 0.9;
+  }
+p.desc {
+    margin-top: 10;
+    color:rgb(255, 255, 255);
+    margin-right: 30px;
+    margin-left: 30px;
+    text-indent: 10px;
+    text-align: justify;
+    /* text-shadow: 1px 1px 1px #000000; */
+    }
+
+
+p.imageBottom{
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+    letter-spacing: 1px;
+    /* text-shadow: 1px 1px 1px #8f8f8f; */
+
+}
+
+.class1{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    font-weight:bold;
+    font-size: larger;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    /* text-shadow: 1px 1px 1px #080808; */
+    
+}
+button {
+    background-color: #152777; 
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+
+    font-size: 16px;
+    margin-left: 40px;
+ 
+  }
+ .button1:hover{
+     opacity: 0.8;
+ }
+.button1 {
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .button2 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #0c5f79; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 40px;
+    border-radius: 8px;
+
+}
+
+  .class2{
+    margin-left: 30px;
+    font-weight:bold;
+    font-size: larger;
+    display: inline;
+    
+
+}
+
+.adViewLink:link, .adViewLink:visited {
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+    background-color: #0010a3;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .adViewLink:hover, .adViewLink:active {
+    background-color: #0c5f79;
+    transition: 400ms;
+
+  }
+
+  div.adView{
+      display: inline;
+      padding-left: 40px;
+      /* margin-left: 2px; */
+  } 

@@ -1,0 +1,43 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c5f79;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  height: 60px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.footer-text {
+  text-align: center;
+  padding-right: 30px;
+}
+.social-media {
+  vertical-align: middle;
+  word-spacing: 10px;
+}
+.social-media a {
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+.social-media i {
+  font-style: normal;
+}
+.footer-container-x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c5f79;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  height: 60px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+}
