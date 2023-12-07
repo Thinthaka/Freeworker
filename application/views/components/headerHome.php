@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freeworker - The Freelancing Platform for Undergraduates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <?php linkFAV("ee-logo.png"); ?>
+    <?php linkCSS("homeNavBar"); ?>
+    <?php linkCSS("homeCards") ?>
+    <?php linkCSS("homeSlideShow") ?>
+    <link rel="stylesheet" href="public\assets\css\homeSlideShow.css" type=text/css>
+    <?php linkCSS("footer") ?>
+    <?php linkCSS("categories") ?>
+
+<!-- css files for view ad by visitor-->
+    <?php linkCSS("viewAdVisitor"); ?>
+    <?php linkCSS('adPerformance'); ?>
+
+</head>
+
+<body>
+    <!-- the navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="scrollTheMenu()">
+            <i class="fa fa-bars"></i> </a>
+        <img src="<?php echo srcIMG(".png"); ?>" class="exlLogo">
+        <a href="<?php echo BASEURL ?>" class="active">Home</a>
+        <a href="<?php echo BASEURL . '/categories/load/0' ?>">Categories</a>  <!-- call it with the parameter 0 - there are results -->
+        <a href="<?php echo BASEURL . '/about' ?>">About</a>
+        <a href="<?php echo BASEURL . '/contact' ?>">Contact</a>
+
+        <div class="buttons">
+            <button class="signin-button" onclick="window.location.href='<?php echo BASEURL . '/login' ?>'">Sign In</button>
+            <button class="signup-button" onclick="window.location.href='<?php echo BASEURL . '/registerController' ?>'">Sign Up</button>
+        </div>
+        <div class="search-container">
+            <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
